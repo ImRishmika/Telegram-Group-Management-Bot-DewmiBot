@@ -243,7 +243,7 @@ def start(update: Update, context: CallbackContext):
         )
      
 def error_handler(update, context):
-    """Log the error and send a telegram message to notify the developer."""
+    """Log the error and send a telegram message to notify the developer (@ImRishmika)."""
     LOGGER.error(msg="Exception while handling an update:", exc_info=context.error)
 
     tb_list = traceback.format_exception(
@@ -401,7 +401,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"** Here's basic Help regarding* *How to use Me? **"
-            f"\n\n Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
+            f"\n\n Firstly Add Emo Deckstop Bot to your group by pressing [here](http://t.me/Emo_Deckstop_Bot?startgroup=true)\n"
             f"\n\n After adding promote me manually with full rights for faster experience.\n"
             f"\n\n Than send `/admincache@Emo_Deckstop_Bot` in that chat to refresh admin list in My database.\n"
             f"\n\n *All done now use below given button's to know about use!*\n"
@@ -428,7 +428,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Let's make your group bot effective now*"
-            f"\nCongragulations, @szrosebot🇱🇰 now ready to manage your group."
+            f"\nCongragulations, @Emo_Deckstop_Bot now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
